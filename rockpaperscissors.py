@@ -15,7 +15,7 @@ while(1 < 2):
   print "You Chose" + userChoice
   
   
-  choices = ['R', 'P', 'S]
+  choices = ['R', 'P', 'S']
   cpuChoice = random.choice(choices)
   print "CPU Chose" + cpuChoice
   
