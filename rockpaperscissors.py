@@ -22,7 +22,7 @@ while(1 < 2):
   
   
   
-  if oppenentChoice = str.upper(uChoice):
+  if cpuChoice = str.upper(uChoice):
     print "It's a tie!"
     continue
   elif cpuChoice = 'R' and uChoice.upper() = 'P':
