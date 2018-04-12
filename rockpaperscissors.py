@@ -22,25 +22,25 @@ while(1 < 2):
   
   
   
-  if cpuChoice = str.upper(uChoice):
+  if cpuChoice == str.upper(uChoice):
     print "It's a tie!"
     continue
-  elif cpuChoice = 'R' and uChoice.upper() = 'P':
+  elif cpuChoice == 'R' and uChoice.upper() == 'P':
     print "You Win!"
     continue
-  elif cpuChoice = 'R' and uChoice.upper() = 'S'
+  elif cpuChoice == 'R' and uChoice.upper() == 'S':
     print "You Lose!"
     continue
-  elif cpuChoice = 'P' and uChoice.upper() = 'R':
+  elif cpuChoice == 'P' and uChoice.upper() == 'R':
     print "You Lose!"
     continue
-  elif cpuChoice = 'P' and uChoice.upper() = 'S'
+  elif cpuChoice == 'P' and uChoice.upper() == 'S':
     print "You Win!"
     continue
-  elif cpuChoice = 'S' and uChoice.upper = 'P'
+  elif cpuChoice == 'S' and uChoice.upper == 'P':
     print "You Lose!"
     continue
-  elif cpuChoice = 'S' and uChoice.upper = 'R'
+  elif cpuChoice =='S' and uChoice.upper =='R':
     print "You Win!"
     continue
   else:
