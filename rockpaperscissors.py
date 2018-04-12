@@ -1,7 +1,7 @@
 import random
 import os
 import re
-os.system('cls' if os.name == 'nt' else clear)
+os.system('cls' if os.name == 'nt' else 'clear')
 
 
 while(1 < 2):
