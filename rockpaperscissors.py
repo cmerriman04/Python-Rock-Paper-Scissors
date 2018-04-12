@@ -5,14 +5,13 @@ os.system('cls' if os.name == 'nt' else 'clear')
 
 
 while(1 < 2):
-  print "/n"
   print "Rock, Paper, Scissors, Shoot!"
   uChoice = raw_input("Choose your weapon -- [R]ock, [P]aper, or [S]cissors: ")
   if not re.match("[SsRrPp]", uChoice):
     print "Please choose a letter: "
     print "Rock, Paper, or Scissors: "
     continue
-  print "You Chose" + userChoice
+  print "You Chose" + uChoice
   
   
   choices = ['R', 'P', 'S']
